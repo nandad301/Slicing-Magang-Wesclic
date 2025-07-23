@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>UMY Tracer Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .menu-icon {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .menu-icon {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="flex items-center justify-between px-6 py-4 shadow bg-white">
+        <div class="flex items-center space-x-6">
+            <div class="flex items-center gap-2">
+                <img src="images/umy-logo.webp" alt="Logo UMY" class="h-8 w-auto">
+                <img src="images/cdc-logo.webp" alt="Logo CDC" class="h-8 w-auto">
+            </div>
+            <div class="space-x-6 hidden md:flex">
+                <a href="#" class="hover:text-green-700 text-semibold">Home</a>
+                <a href="#" class="hover:text-green-700 text-semibold">Kuisioner</a>
+                <a href="#" class="hover:text-green-700 text-semibold">Kontak</a>
+            </div>
+        </div>
+        <a href="#" class="bg-green-500 text-white font-semibold px-4 py-2 rounded-xl hover:bg-green-600">Sign Up</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+        class="flex flex-col md:flex-row items-center justify-between px-6 md:px-24 py-14 pb-24 bg-gradient-to-b from-white to-green-100">
+        <div class="max-w-xl space-y-10">
+            <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+                Empowering Alumni With <br> The University Alumni Tracer
+            </h1>
+            <p class="text-gray-600">Track the success of our graduates and stay connected with the University Alumni
+                Tracer Management Information System.</p>
+            <div class="flex flex-col md:flex-row md:items-center md:space-x-6 space-y-4 md:space-y-0">
+                <a href="#" class="px-6 py-3 bg-green-500 text-white rounded-xl  hover:bg-green-600 scroll-btn">Learn
+                    More</a>
+                <p class="text-sm text-gray-600">
+                    Already have an account?
+                    <a href="#" class="text-green-600 hover:underline text-green-700">Sign in</a>
+                </p>
+            </div>
+        </div>
+        <div class="mt-10 md:mt-0">
+            <img src="images/gambar-man.png" alt="Alumni"
+                class="rounded-xl transform transition duration-300 hover:scale-105">
+        </div>
+    </section>
+    <section class="relative z-10 bg-gradient-to-b from-green-50 to-white pt-20 pb-20">
+        <!--Features Container -->
+        <div class="bg-white rounded-t-3xl px-6 py-16 md:px-20 max-w-6xl mx-auto -mt-32 md:-mt-25 -mb-20">
+
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-bold text-green-800 leading-tight">Apa yang akan kamu dapatkan <br>
+                    di Tracer
+                    Study?</h2>
+                <p class="text-gray-600 mt-4">Start building your future and create your CV today</p>
+            </div>
+
+            <div class="flex flex-col md:flex-row justify-center gap-6">
+                <!-- Card 1 -->
+                <div
+                    class="flex-1 bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition transform hover:scale-105 text-center">
+                    <div class="flex justify-center mb-4">
+                        <div
+                            class="flex items-center justify-center w-16 h-16 bg-blue-100 border-2 border-blue-600 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-600" fill="none"
+                                viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25M9 16.5v.75m3-3v3M15 12v5.25m-4.5-15H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="font-bold text-lg text-green-800 ">Data Kuesioner</h3>
+                    <p class="text-gray-600 mt-2">Make and manage your profile after graduation from your university</p>
+                    <a href="#"
+                        class="inline-block mt-4 font-semibold text-gray-700 hover:text-blue-600 transition-all">
+                        <span class="group flex flex-col items-center justify-center relative">
+                            <span class="transition-transform duration-300 transform group-hover:translate-x-10">
+                                →
+                            </span>
+                            <span class="absolute left-1 transform -translate-x-[60%] opacity-0
+                            group-hover:opacity-100 group-hover:-translate-x-[55%]
+                            transition-all duration-300 ease-in-out whitespace-nowrap text-sm">
+                                Get Started
+                            </span>
+                        </span>
+                    </a>
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="flex-1 bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition transform hover:scale-105 text-center">
+                    <div class="flex justify-center mb-4">
+                        <div
+                            class="flex items-center justify-center w-16 h-16 bg-orange-100 border-2 border-orange-600 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-orange-600" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M8 16h8M8 12h8m-8-4h8M5 20h14a2 2 0 002-2V8l-6-6H5a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="font-bold text-lg text-green-800">CV Builder</h3>
+                    <p class="text-gray-600 mt-2">Priority support and multi-user access to maximize productivity</p>
+                    <a href="#"
+                        class="inline-block mt-4 font-semibold text-gray-700 hover:text-orange-600 transition-all">
+                        <span class="group relative inline-flex items-center justify-center">
+                            <span class="transition-transform duration-300 transform group-hover:translate-x-10">
+                                →
+                            </span>
+                            <span class="absolute left-1 transform -translate-x-[60%] opacity-0 group-hover:opacity-100 group-hover:-translate-x-[55%] transition-all duration-300 ease-in-out whitespace-nowrap text-sm">
+                                Get Started
+                            </span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- CDC Description Section -->
+    <section id="cdc-section" class="py-20 px-6 md:px-24 bg-gradient-to-b from-white to-green-100">
+        <div class="container mx-auto flex flex-col md:flex-row items-center gap-12">
+
+            <!-- LEFT: Text -->
+            <div class="md:w-1/2 text-center md:text-left">
+                <h2 class="text-2xl md:text-3xl text-green-800 font-bold mb-6">Career Development Center UMY</h2>
+                <p class="text-gray-600 mb-4">
+                    The CDC UMY exists to help students and alumni grow their careers by offering training, counseling,
+                    and up-to-date job market information. It helps them connect to job opportunities and prepares them
+                    to thrive in their careers...
+                </p>
+            </div>
+
+            <!-- RIGHT: Image with oval border -->
+            <div class="md:w-1/2 flex justify-center">
+                <img img src="/images/gambar-kerja.webp" alt="CDC Illustration"
+                    class="w-80 h-auto border-4 border-white rounded-[150px_150px_100px_100px] object-cover aspect-[3/2] transition duration-300 hover:scale-105" />
+            </div>
+
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-20">
+            <div class="text-center">
+                <div class="text-3xl font-bold text-gray-600">25</div>
+                <div class="text-gray-500">Empower graduates to start </div>
+                <div class="h-1 bg-blue-200 rounded-full mt-2">
+                    <div class="h-1 bg-blue-600 rounded-full w-[20%]"></div>
+                </div>
+            </div>
+            <div class="text-center">
+                <div class="text-3xl font-bold text-gray-600">120</div>
+                <div class="text-gray-500">Create a professional CV </div>
+                <div class="h-1 bg-red-200 rounded-full mt-2">
+                    <div class="h-1 bg-red-600 rounded-full w-[80%]"></div>
+                </div>
+            </div>
+            <div class="text-center">
+                <div class="text-3xl font-bold text-gray-600">120</div>
+                <div class="text-gray-500">Track alumni career paths</div>
+                <div class="h-1 bg-green-200 rounded-full mt-2">
+                    <div class="h-1 bg-green-600 rounded-full w-[100%]"></div>
+                </div>
+            </div>
+            <div class="text-center">
+                <div class="text-3xl font-bold text-gray-600">120</div>
+                <div class="text-gray-500">Gain deep insights</div>
+                <div class="h-1 bg-yellow-100 rounded-full mt-2">
+                    <div class="h-1 bg-yellow-400 rounded-full w-[60%]"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-2 text-sm text-gray-400 bg-white">
+        © {{ date('Y') }} CDC UMY. All rights reserved.
+    </footer>
+
+    <script>
+        // Script sederhana agar saat hover pada panah, teks muncul
+        document.querySelectorAll('.arrow').forEach(arrow => {
+            arrow.addEventListener('mouseenter', () => {
+                arrow.nextElementSibling.classList.remove('opacity-0', 'translate-x-2');
+                arrow.nextElementSibling.classList.add('opacity-100', 'translate-x-0');
+            });
+            arrow.addEventListener('mouseleave', () => {
+                arrow.nextElementSibling.classList.remove('opacity-100', 'translate-x-0');
+                arrow.nextElementSibling.classList.add('opacity-0', 'translate-x-2');
+            });
+        });
+    </script>
+</body>
+
+</html>
